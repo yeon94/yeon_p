@@ -41,9 +41,10 @@ const TextList = styled.ul`
 
 const TextLi = styled.li`
 	color: ${mainColor};
+	font-size: 16px;
 `;
 
-export default (props) => {
+export default () => {
 	const [text, setText] = useState(0);
 	const getIndex = (target) => {
 		setText(target);

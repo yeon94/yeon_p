@@ -82,6 +82,8 @@ const IconContainer = styled.div`
 const IntroText = styled.p`
 	color: ${mainColor};
 	height: 20%;
+	font-size: 16px;
+	line-height: 25px;
 `;
 
 const styles = {
@@ -114,7 +116,11 @@ export default () => (
 				<FaChalkboard style={styles} size={50} />
 				<FaSearch style={styles} size={50} />
 			</IconContainer>
-			<IntroText></IntroText>
+			<IntroText>
+				긍정적이고 진취적입니다.
+				<br />
+				새로운 배움을 좋아합니다.
+			</IntroText>
 		</IntroList>
 		<IntroList>
 			<SubiTitle>취미</SubiTitle>
@@ -124,7 +130,7 @@ export default () => (
 				<FaGamepad style={styles} size={50} />
 				<FaHeadphones style={styles} size={50} />
 			</IconContainer>
-			<IntroText></IntroText>
+			<IntroText>독서, 요리, 게임, 음악감상</IntroText>
 		</IntroList>
 		<IntroList>
 			<CertiList>
