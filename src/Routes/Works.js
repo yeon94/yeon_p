@@ -2,7 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import { works } from "../components/AllDatas";
 import { textColor, mainColor } from "../components/Colors";
-
+import cinema_j from "../assets/cinema_j.png";
+import metube from "../assets/metube.png";
+import yeon_movie from "../assets/yeon_movie.png";
 const screen_size = window.innerHeight;
 
 const stlyles = {
@@ -40,10 +42,21 @@ const Title = styled.h5`
 	font-size: 20px;
 `;
 
-const WorkImage = styled.image`
+const WorkImage = styled.div`
 	width: 80%;
 	height: 100px;
 	background-color: ${mainColor};
+	background-size: auto 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-image: url(${(props) =>
+		props.imgprops === "Cinema_j"
+			? cinema_j
+			: props.imgprops === "Metube"
+			? metube
+			: props.imgprops === "Yeon_Movie"
+			? yeon_movie
+			: null});
 `;
 
 const SiteLocation = styled.span`
@@ -65,12 +78,13 @@ export default () => {
 	const windowOpen = (url) => {
 		window.open(url);
 	};
+
 	return (
 		<WorkContainer>
 			{works.map((work) => (
 				<SubconTainer key={work.title}>
 					<Title>{work.title}</Title>
-					<WorkImage />
+					<WorkImage imgprops={work.title} />
 					<SiteLocation onClick={() => windowOpen(work.site)}>
 						{work.title} SITE
 					</SiteLocation>

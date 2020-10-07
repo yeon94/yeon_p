@@ -119,7 +119,7 @@ export const works = [
 		tool: ["ES6, ", "React.js"],
 	},
 	{
-		title: "Yoen_Movie",
+		title: "Yeon_Movie",
 		site: "https://expo.io/@jyeon/yeon_movie",
 		git: "https://github.com/yeon94/yeon_movie.git",
 		tool: ["ES6, ", "React-Native, ", "Expo"],
