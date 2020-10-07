@@ -15,10 +15,10 @@ export default () => (
 	<Router>
 		<Header />
 		<Switch>
-			<Route path='/' exact component={Home} />
-			<Route path='/intro' component={Intro} />
-			<Route path='/skills' component={Skills} />
-			<Route path='/work' component={Works} />
+			<Route path='https://yeon94.github.io/yeon_p/' exact component={Home} />
+			<Route path='https://yeon94.github.io/yeon_p/intro' component={Intro} />
+			<Route path='https://yeon94.github.io/yeon_p/skills' component={Skills} />
+			<Route path='https://yeon94.github.io/yeon_p/work' component={Works} />
 			<Redirect from='*' to='/' />
 		</Switch>
 	</Router>
