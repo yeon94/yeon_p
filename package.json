@@ -29,7 +29,7 @@
 	"eslintConfig": {
 		"extends": "react-app"
 	},
-	"homepage": "https://github.com/yeon94/yeon_p",
+	"homepage": "https://yeon94.github.io/yeon_p/",
 	"browserslist": {
 		"production": [
 			">0.2%",
