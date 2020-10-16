@@ -64,7 +64,7 @@ export const skillData = [
 			"useState, useEffect, useContext 등 React-hook 사용 가능",
 			"Proptypes를 활용하여 보다 안정성있는 코딩 가능.",
 			"Component를 필요에 따라 분할하여 모듈화하고, 유지보수성을 높일 수 있도록 할 수 있음.",
-			"Typescript를 사용하여 안정적인 코딩 가능.",
+			
 		],
 	},
 	{

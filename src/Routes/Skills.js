@@ -22,6 +22,7 @@ const Skill = styled.button`
 	border: 1px solid ${mainColor};
 	background-color: ${textColor};
 	color: ${mainColor};
+	cursor: pointer;
 `;
 
 const SkillInner = styled.span``;
@@ -45,22 +46,24 @@ const TextLi = styled.li`
 `;
 
 export default () => {
-	const [text, setText] = useState(0);
+	const [text, setText] = useState(
+		{indexs : "0"}
+	);
 	const getIndex = (target) => {
-		setText(target);
+		setText({indexs : target});
 	};
 	return (
 		<SkillContainer>
 			<LeftSideContainer>
 				{skillData.map((skill) => (
-					<Skill key={skill.index} onClick={() => getIndex(skill.index)}>
+					<Skill key={skill.index} onClick={() => getIndex(skill.index)} >
 						<SkillInner>{skill.skillName}</SkillInner>
 					</Skill>
 				))}
 			</LeftSideContainer>
 			<RightSideContainer>
 				<TextList>
-					{skillData[text].skillExplan.map((ex) => (
+					{skillData[text.indexs].skillExplan.map((ex) => (
 						<TextLi>- {ex}</TextLi>
 					))}
 				</TextList>

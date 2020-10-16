@@ -35,20 +35,20 @@ const IntroList = styled.li`
 	:nth-child(1) {
 		grid-column: span 3;
 		display: grid;
-		grid-template-columns: repeat(4, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 		align-items: center;
 		padding-left: 50px;
 	}
 `;
 
 const Resume = styled.button`
-	width: 180px;
+	width: 70%;
 	height: 180px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	background-color: ${mainColor};
-	border-radius: 50%;
+	border-radius: 5px;
 	color: ${textColor};
 	font-weight: bold;
 	font-size: 20px;
@@ -57,7 +57,6 @@ const Resume = styled.button`
 `;
 const CertiList = styled.ul`
 	height: 100%;
-	grid-column: span 2;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -98,8 +97,7 @@ const styles = {
 export default () => (
 	<IntroContainer>
 		<IntroList>
-			<Resume>이력서</Resume>
-			<Resume>자기소개서</Resume>
+			<Resume onClick = {() => window.open("https://space.malangmalang.com/open?fileId=m:0:768075150&lang=ko")}>이력서 &amp; 자소서 보기</Resume>
 			<CertiList>
 				<SubiTitle>자격증</SubiTitle>
 				<CertiLi>컴퓨터활용능력 1급 / 취득일 : 2019.12.20</CertiLi>
