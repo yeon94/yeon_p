@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/yeon_p/static/js/main.5c16a871.chunk.js",
-    "main.js.map": "/yeon_p/static/js/main.5c16a871.chunk.js.map",
+    "main.js": "/yeon_p/static/js/main.0cc52b76.chunk.js",
+    "main.js.map": "/yeon_p/static/js/main.0cc52b76.chunk.js.map",
     "runtime-main.js": "/yeon_p/static/js/runtime-main.7e3109c1.js",
     "runtime-main.js.map": "/yeon_p/static/js/runtime-main.7e3109c1.js.map",
-    "static/js/2.132fa261.chunk.js": "/yeon_p/static/js/2.132fa261.chunk.js",
-    "static/js/2.132fa261.chunk.js.map": "/yeon_p/static/js/2.132fa261.chunk.js.map",
+    "static/js/2.34ed8d24.chunk.js": "/yeon_p/static/js/2.34ed8d24.chunk.js",
+    "static/js/2.34ed8d24.chunk.js.map": "/yeon_p/static/js/2.34ed8d24.chunk.js.map",
     "index.html": "/yeon_p/index.html",
-    "precache-manifest.99d78ab182926403c4bef3b723f7be3d.js": "/yeon_p/precache-manifest.99d78ab182926403c4bef3b723f7be3d.js",
+    "precache-manifest.6da8a2e8b2a51b634cd55ef5862998f4.js": "/yeon_p/precache-manifest.6da8a2e8b2a51b634cd55ef5862998f4.js",
     "service-worker.js": "/yeon_p/service-worker.js",
-    "static/js/2.132fa261.chunk.js.LICENSE.txt": "/yeon_p/static/js/2.132fa261.chunk.js.LICENSE.txt",
+    "static/js/2.34ed8d24.chunk.js.LICENSE.txt": "/yeon_p/static/js/2.34ed8d24.chunk.js.LICENSE.txt",
     "static/media/cinema_j.png": "/yeon_p/static/media/cinema_j.46297eaa.png",
     "static/media/metube.png": "/yeon_p/static/media/metube.c9b14bb2.png",
     "static/media/myPhoto.png": "/yeon_p/static/media/myPhoto.bc181bbb.png",
@@ -17,7 +17,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7e3109c1.js",
-    "static/js/2.132fa261.chunk.js",
-    "static/js/main.5c16a871.chunk.js"
+    "static/js/2.34ed8d24.chunk.js",
+    "static/js/main.0cc52b76.chunk.js"
   ]
 }
